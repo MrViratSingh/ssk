@@ -1,0 +1,44 @@
+/* body{
+   background-image: url(Rstecz1.webp);
+} */
+body {
+    background-image: linear-gradient(to right, rgb(54, 195, 195) , rgb(116, 118, 158));
+  }
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color:  rgb(136, 136, 219); */
+}
+
+div img {
+    width: 219px;
+    height: 261px;
+    border: 2px solid rgb(158, 133, 133);
+    border-radius: 30px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+
+}
+div img:hover {
+    transform: scale(1.03);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 1px;
+    border-bottom: 3px solid #222;
+}
+
+h3 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 1px;
+}
