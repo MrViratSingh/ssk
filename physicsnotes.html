@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjects Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(to right, rgb(54, 195, 195) , rgb(116, 118, 158));
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .subject-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 4px 7px 7px 0px;
+            margin: 20px;
+            padding: 20px;
+            width: calc(33.33% - 40px); 
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .subject-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .subject-title {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .subject-description {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .btn-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-link:hover {
+            background-color: #0056b3;
+        }
+
+        @media screen and (max-width: 768px) {
+            .subject-card {
+                width: calc(50% - 40px); 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+   
+        <div class="subject-card">
+            <img class="subject-image" src="notes1.jpg" alt="image@NOTES">
+            <h2 class="subject-title">Notes</h2>
+            <p class="subject-description">By- Dr. Markandey Singh </p>
+            <a class="btn-link" href="https://drive.google.com/drive/folders/18n1yzdwcBo3f3t5pI94QeM3CG1UCbCJs?usp=drive_link">Learn More</a>
+        </div>
+
+        <div class="subject-card">
+            <img class="subject-image" src="Physicsbook.jpg" alt="image@PHYSICS">
+            <h2 class="subject-title">Book</h2>
+            <p class="subject-description">S.K. Gupta</p>
+            <a class="btn-link" href="https://www.amazon.in/Engineering-Physics-I-PB-GUPTA-S/dp/8182838908/ref=sr_1_1?crid=1P0YV9REJ381V&keywords=S.K+Gupta+Engineering+Physics&qid=1697045042&sprefix=s.k+gupta+engineering+physics%2Caps%2C223&sr=8-1">Buy Now</a>
+        </div>
+    </div>
+</body>
+</html>

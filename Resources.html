@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjects Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(to right, rgb(54, 195, 195) , rgb(116, 118, 158));
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .subject-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 4px 7px 7px 0px;
+            margin: 20px;
+            padding: 20px;
+            width: calc(33.33% - 40px); /* Adjust the width as needed */
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .subject-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .subject-title {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .subject-description {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .btn-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-link:hover {
+            background-color: #0056b3;
+        }
+
+        @media screen and (max-width: 768px) {
+            .subject-card {
+                width: calc(50% - 40px); /* Adjust the width for mobile devices */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Engineering Physics -->
+        <div class="subject-card">
+            <img class="subject-image" src="phy.png" alt="image@PHYSICS">
+            <h2 class="subject-title">Engineering Physics</h2>
+            <p class="subject-description">Description of Subject 1.</p>
+            <a class="btn-link" href="http://127.0.0.1:5500/physicsnotes.html">Learn More</a>
+        </div>
+
+        <!-- Basic Electrical Engineering-->
+        <div class="subject-card">
+            <img class="subject-image" src="ee.png" alt="image@ELECTRICAL">
+            <h2 class="subject-title">Basic Electrical Engineering</h2>
+            <p class="subject-description">Description of Subject 2.</p>
+            <a class="btn-link" href="http://127.0.0.1:5500/electricalnotes.html">Learn More</a>
+        </div>
+        <!--Basic Electronics Engineering -->
+        <div class="subject-card">
+            <img class="subject-image" src="ec.png" alt="image@ELECTRONICS">
+            <h2 class="subject-title">Basic Electronics Engineering</h2>
+            <p class="subject-description">Description of Subject 2.</p>
+            <a class="btn-link" href="http://127.0.0.1:5500/electronicsnotes.html">Learn More</a>
+        </div>
+
+        <!-- Fundamental Of Mechanics -->
+        <div class="subject-card">
+            <img class="subject-image" src="fme.png" alt="image@MECHANICS">
+            <h2 class="subject-title">Fundamental Of Mechanics</h2>
+            <p class="subject-description">Description of Subject 2.</p>
+            <a class="btn-link" href="http://127.0.0.1:5500/mechanicsnotes.html">Learn More</a>
+        </div>
+
+        <!-- Engineering Mathematics 1 -->
+        <div class="subject-card">
+            <img class="subject-image" src="M1.png" alt="image@MATHEMATICS 1">
+            <h2 class="subject-title">Engineering Mathematics 1</h2>
+            <p class="subject-description">Description of Subject 2.</p>
+            <a class="btn-link" href="http://127.0.0.1:5500/maths1notes.html">Learn More</a>
+        </div>
+
+        <!-- Engineering Mathematics 2
+        <div class="subject-card">
+            <img class="subject-image" src="M2.png" alt="image@MATHEMATICS 2">
+            <h2 class="subject-title">Engineering Mathematics 2</h2>
+            <p class="subject-description">Description of Subject 2.</p>
+            <a class="btn-link" href="http://127.0.0.1:5500/maths2notes.html">Learn More</a>
+        </div> -->
+
+        <!-- Soft Skill -->
+        <div class="subject-card">
+            <img class="subject-image" src="ss.png" alt="image@SOFTSKILL">
+            <h2 class="subject-title">Soft Skill</h2>
+            <p class="subject-description">Description of Subject 2.</p>
+            <a class="btn-link" href="http://127.0.0.1:5500/softskillnotes.html">Learn More</a>
+        </div>
+
+                <!-- Environment And Ecology -->
+                <div class="subject-card">
+                    <img class="subject-image" src="evs.png" alt="image@ENVIRONMENT AND ECOLOGY">
+                    <h2 class="subject-title">Environment And Ecology</h2>
+                    <p class="subject-description">Description of Subject 2.</p>
+                    <a class="btn-link" href="http://127.0.0.1:5500/evsnotes.html">Learn More</a>
+                </div>
+                        <!-- Engineering Chemistry  -->
+        <div class="subject-card">
+            <img class="subject-image" src="che.png" alt="image@ENGINEERING CHEMISTRY">
+            <h2 class="subject-title">Engineering Chemistry</h2>
+            <p class="subject-description">Description of Subject 2.</p>
+            <a class="btn-link" href="http://127.0.0.1:5500/chemistrynotes.html">Learn More</a>
+        </div>
+
+                <!-- Programming For Problem Solving -->
+                <div class="subject-card">
+                    <img class="subject-image" src="pps.png" alt="image@PROGRAMMING FOR PROBLEM SOLVING">
+                    <h2 class="subject-title">Programming For Problem Solving</h2>
+                    <p class="subject-description">Description of Subject 2.</p>
+                    <a class="btn-link" href="http://127.0.0.1:5500/ppsnotes.html">Learn More</a>
+                </div>
+        <!-- Repeat the above structure for the other subjects (Subject 3 to Subject 10) -->
+    </div>
+</body>
+</html>

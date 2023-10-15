@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgb(54, 195, 195) , rgb(116, 118, 158));
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-info{
+    color: #fff;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+
+}
+.contact-info i{
+    margin-right: 20px;
+    font-size: 25px;
+
+}
+.Contact-form{
+    max-width: 700px;
+    margin-right: 50px;
+
+}
+.contact-info,.Contact-form{
+    flex: 1;
+
+}
+.Contact-form h2{
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+

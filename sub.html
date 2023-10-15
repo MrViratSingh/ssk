@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img{
+            width: 330px;
+            height: 100px;
+        }
+
+        .subject-card {
+           
+            flex-basis: calc(33.33% - 20px);
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .subject-card h2 {
+            font-size: 1.2rem;
+        }
+
+        .subject-card p {
+            margin-top: 10px;
+            font-size: 1rem;
+        }
+
+        @media screen and (max-width: 768px) {
+            .subject-card {
+                flex-basis: calc(50% - 20px);
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            .subject-card {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Subjects</h1>
+    </header>
+    <div class="container">
+        <div class="subject-card">
+            <img src="ee.jpg" >
+            <h2>electrical</h2>
+            <p>notes</p>
+        </div>
+        <div class="subject-card">
+            <img src="ee.jpg" >
+            <h2>Subject 2</h2>
+            <p>Description of subject 2.</p>
+        </div>
+        <div class="subject-card">
+            <h2>Subject 3</h2>
+            <p>Description of subject 3.</p>
+        </div>
+        <div class="subject-card">
+            <h2>Subject 4</h2>
+            <p>Description of subject 4.</p>
+        </div>
+        <div class="subject-card">
+            <h2>Subject 5</h2>
+            <p>Description of subject 5.</p>
+        </div>
+        <div class="subject-card">
+            <h2>Subject 6</h2>
+            <p>Description of subject 6.</p>
+        </div>
+        <div class="subject-card">
+            <h2>Subject 7</h2>
+            <p>Description of subject 7.</p>
+        </div>
+        <div class="subject-card">
+            <h2>Subject 8</h2>
+            <p>Description of subject 8.</p>
+        </div>
+        <div class="subject-card">
+            <h2>Subject 9</h2>
+            <p>Description of subject 9.</p>
+        </div>
+        <div class="subject-card">
+            <h2>Subject 10</h2>
+            <p>Description of subject 10.</p>
+        </div>
+    </div>
+</body>
+</html>
